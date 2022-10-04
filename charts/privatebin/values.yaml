@@ -59,6 +59,16 @@ securityContext:
   fsGroup: 82
   readOnlyRootFilesystem: true
 
+extraVolumes: []
+  # - name: nginx-params
+  #   configMap:
+  #     name: nginx-params
+
+extraVolumeMounts: []
+  # - mountPath: /etc/nginx/server.d
+  #   name: nginx-params
+
+
 ingress:
   enabled: false
   annotations: {}
