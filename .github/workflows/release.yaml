@@ -6,7 +6,7 @@ on:
     branches:
       - main
       - master
-
+      - feat/additional-mounts
 jobs:
   release:
     runs-on: ubuntu-latest
